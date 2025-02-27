@@ -1,3 +1,12 @@
+---
+layout:     post
+title:      "Clean White Theme for Hugo"
+subtitle:   "How to set up this theme"
+date:       2019-01-09
+author:     "赵化冰"
+image:      "https://img.zhaohuabing.com/post-bg-2015.jpg"
+---
+
 # Clean White Theme for Hugo
 
 CleanWhite is a clean, elegant, but fully functional blog theme for Hugo. Here is a live [demo site](https://zhaohuabing.com) using this theme.  
@@ -7,6 +16,23 @@ and [Clean Blog Jekyll Theme](https://github.com/BlackrockDigital/startbootstrap
 
 These two upstream projects have done awesome jobs to create a blog theme, what I'm doing here is porting it to Hugo, of which I like the simplicity and the much faster compiling speed. Some other features which I think could be useful, such as site search with algolia and proxy for Disqus access in China, have also been built in the CleanWhite theme. Other fancy features of upstream projects are not supported by this Hugo theme, I'd like to make it as simple as possible and only focus on blog purpose, at least for now.
 While I created this theme, I followed the Hugo theme best practice and tried to make every part of the template as a replaceable partial html, so it could be much easier for you to make your customization based on it.
+
+## Screenshots
+
+**Home**
+![screenshot](/img/fullscreenshot.png)
+
+**Post**
+![screenshot](/img/post.png)
+
+**Search**
+![screenshot](/img/sitesearch.png)
+
+**Disqus**
+![screenshot](/img/disqus.png)
+
+**Wechat Pay & Alipay**
+![screenshot](/img/rewards.png)
 
 ## Quick Start
 Go to the directory where you have your Hugo site and run:
